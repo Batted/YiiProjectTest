@@ -1,0 +1,15 @@
+<?php
+
+return [
+    // В терминал ввожу: "php yii migrate"
+    'class' => 'yii\db\Connection',
+    'dsn' => 'mysql:host=127.0.0.1;dbname=yii_backsends',
+    'username' => 'root',
+    'password' => 'root',
+    'charset' => 'utf8',
+
+    // Schema cache options (for production environment)
+    //'enableSchemaCache' => true,
+    //'schemaCacheDuration' => 60,
+    //'schemaCache' => 'cache',
+];
